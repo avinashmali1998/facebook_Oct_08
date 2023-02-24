@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Package_TestNg.TestNg_ExecutionClass">
+        <methods>
+          <include name="verifyTermsLink"/>
+          <include name="launchBrowser"/>
+          <include name="verifyCookiesPolicyLink"/>
+          <include name="verifyPrivacyPolicyLink"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="goOnLoginOrSignUpPage"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Package_TestNg.TestNg_ExecutionClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite_1] -->
